@@ -9,6 +9,7 @@ class HelloController extends Controller
     //
     public function index()
     {
-       return view('hello');
+        $data["name"] = "武者小路";  // (1)
+    	return view("hello", $data);  // (2)
     }
 }

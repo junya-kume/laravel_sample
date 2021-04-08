@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <title>My First Page</title>
+	<meta charset="UTF-8">
+	<title>データを埋め込んだテンプレート</title>
 </head>
-<body>
-  <h2>Hello World!!</h2>
-  <p>皆さん、こんにちは</p>
-Feb/15/2021<p />
-</body>
+	<body>
+		<h1>こんにちは! {{$name}}さん!</h1>
+	</body>
 </html>
