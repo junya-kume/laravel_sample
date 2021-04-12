@@ -5,8 +5,8 @@
 	<title>データを埋め込んだテンプレート</title>
 </head>
 	<body>
-		<h1>こんにちは! {{$name}}さん!</h1>
+		<h1>こんにちは! {{$hellos}}さん!</h1>
     <h1>こんにちは! testさん!</h1>
-    
+
 	</body>
 </html>
